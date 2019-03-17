@@ -12,8 +12,7 @@ object SparseArray {
 
   def main(args: Array[String]): Unit = {
     // 定义数组的属性（行、列）
-    val rowSize = 11;
-    val colSize = 11;
+    val rowSize,colSize = 11;
 
     // 稀疏数组
     val chessMap = Array.ofDim[Int](rowSize,colSize);
