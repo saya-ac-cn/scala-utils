@@ -15,8 +15,9 @@ object Josephu {
 
   def main(args: Array[String]): Unit = {
     val game = new BoyGame
-    game.addBoy(10)
+    game.addBoy(7)
     game.showBoy()
+    game.countBoy(4,3,7)
   }
 
 }
@@ -70,6 +71,68 @@ class BoyGame{
         curBoy = curBoy.next
       }
     }
+  }
+
+  /** 主方法
+   * @描述
+   * @参数   startNo 从startNo开始数
+   * @参数   countNum 数countNum下
+   * @参数   nums 多少人
+   * @返回值
+   * @创建人  saya.ac.cn-刘能凯
+   * @创建时间  2019-03-26
+   * @修改人和其它信息
+   */
+  def countBoy(startNo:Int,countNum:Int,nums:Int):Unit={
+    // 参数判断
+    if(first.next == null || startNo < 1 || startNo > nums){
+      println("参数不合法")
+      return
+    }
+
+    /** 思路
+    1）在first前面 设计一个辅助指针(helper),辅助helper定位到first前面
+    2）将first 指针移动到  startNo 节点
+    3）开始数  countNum个数，first和helper都要移动
+    4）删除first指向的节点
+    **/
+    //将辅助helper定位到first前面
+    var helper = first
+    breakable{
+      while (true){
+        if(helper.next == first){
+          break()
+        }
+        helper = helper.next
+      }
+    }
+
+    //将first 指针移动到  startNo 节点
+    for(i <- 0 until startNo -1){
+      first = first.next
+      helper = helper.next
+    }
+
+    // 开始数数，按照给定的值，每数到一个节点就出圈，直到链表只有一个节点
+    breakable{
+      while (true){
+        if(helper == first){
+          // 只有一个节点
+          break()
+        }
+        // 开始数  countNum个数，first和helper都要移动
+        for(i <- 0 until countNum -1){
+          first = first.next
+          helper = helper.next
+        }
+        // 给出出圈人的信息
+        printf("编号%d\n",first.no)
+        // 移除该节点的信息
+        first = first.next
+        helper.next = first
+      }
+    }
+    printf("最后的节点是%d",first.no)
   }
 
 }
