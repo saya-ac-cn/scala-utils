@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6866fb05-db7f-4ec2-bc1a-a3f466d73062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,21 +17,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+            <state relative-caret-position="1637">
+              <caret line="158" column="15" lean-forward="true" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter3/CircleArrayQueueUnit2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="720">
+              <caret line="48" selection-start-line="48" selection-end-line="96" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/SingleLinkListUnit1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -81,8 +90,8 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="183" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -92,7 +101,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +152,17 @@
               <item name="ac" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="saya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="saya" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -225,12 +244,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553780910497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553867544623" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -255,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackUnit">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -289,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleArrayQueueUnit2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter3.CircleArrayQueueUnit2" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter5.Calculator" />
       <module name="ScalaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter3.*" />
+          <option name="PATTERN" value="ac.cn.saya.chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,19 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CircleArrayQueueUnit2" />
       <item itemvalue="Application.SingleLinkListUnit1" />
       <item itemvalue="Application.DoubleLinkListUnit1" />
       <item itemvalue="Application.Josephu" />
       <item itemvalue="Application.ArrayStackUnit" />
+      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackUnit" />
         <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkListUnit1" />
         <item itemvalue="Application.SingleLinkListUnit1" />
-        <item itemvalue="Application.CircleArrayQueueUnit2" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +423,8 @@
       <workItem from="1553519729570" duration="1788000" />
       <workItem from="1553606155972" duration="1863000" />
       <workItem from="1553690554947" duration="1505000" />
-      <workItem from="1553780401320" duration="487000" />
+      <workItem from="1553780401320" duration="666000" />
+      <workItem from="1553863958163" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明文件">
       <created>1552828310632</created>
@@ -475,17 +496,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553692050580</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="增加堆栈计算器">
+      <created>1553781045357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553781045357</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31471000" />
+    <option name="totallyTimeSpent" value="35113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="183" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,8 +521,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42978725" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24680851" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,7 +556,8 @@
     <MESSAGE value="增加约瑟夫问题（添加节点和遍历）" />
     <MESSAGE value="完成约瑟夫问题" />
     <MESSAGE value="完成栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成栈" />
+    <MESSAGE value="增加堆栈计算器" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加堆栈计算器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,6 +573,12 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -588,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/SingleLinkListUnit1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/DoubleLinkListUnit1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -623,17 +650,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/SingleLinkListUnit1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="720">
           <caret line="48" selection-start-line="48" selection-end-line="96" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="1637">
+          <caret line="158" column="15" lean-forward="true" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
         </state>
       </provider>
     </entry>
