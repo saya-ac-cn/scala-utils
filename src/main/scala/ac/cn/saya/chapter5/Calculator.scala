@@ -14,7 +14,7 @@ import util.control.Breaks._
 object Calculator {
 
   def main(args: Array[String]): Unit = {
-    val expression = "3+2*6-2"
+    val expression = "34+2*6-2"
     // 数栈
     val numStack = new ArrayStackUtils(10)
     // 符号栈
@@ -37,6 +37,8 @@ object Calculator {
     var oper = 0
     var res = 0
     var ch = ' '
+    // 在进行扫描时，保存上一次的字符
+    var lastNum = ""
 
     // 循环取出exprssion字符
     breakable {
@@ -68,7 +70,18 @@ object Calculator {
           }
         } else {
           // 数字直接入栈,注意""
-          numStack.push((ch + "").toInt)
+          // 处理多位 的逻辑
+          lastNum += ch
+          if(index == expression.length -1){
+            numStack.push(lastNum.toInt)
+          }else{
+            // 判断ch的下一个字符串是不是数字，如果是数字，则进行一次扫描，如果是操作符，就直接入栈
+            if(operStack.isOper(expression.substring(index+1,index+2)(0))){
+              // 下一位是符号时，把符号前的数字入栈
+              numStack.push(lastNum.toInt)
+              lastNum = "";
+            }
+          }
         }
         index += 1
         // 判断是否到达表达式的末尾
