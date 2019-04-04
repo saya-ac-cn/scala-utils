@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6866fb05-db7f-4ec2-bc1a-a3f466d73062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/Josephu.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala" />
       </list>
     </option>
   </component>
@@ -91,7 +101,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="332" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -101,12 +111,58 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="saya" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -147,13 +203,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554123663059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554387259803" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -178,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.Maze">
     <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -251,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkListUnit1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter4.SingleLinkListUnit1" />
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter6.Maze" />
       <module name="ScalaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter4.*" />
+          <option name="PATTERN" value="ac.cn.saya.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +344,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingleLinkListUnit1" />
       <item itemvalue="Application.DoubleLinkListUnit1" />
       <item itemvalue="Application.Josephu" />
       <item itemvalue="Application.ArrayStackUnit" />
       <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackUnit" />
         <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkListUnit1" />
-        <item itemvalue="Application.SingleLinkListUnit1" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +383,8 @@
       <workItem from="1553690554947" duration="1505000" />
       <workItem from="1553780401320" duration="666000" />
       <workItem from="1553863958163" duration="3576000" />
-      <workItem from="1554123057402" duration="1189000" />
+      <workItem from="1554123057402" duration="1258000" />
+      <workItem from="1554385905726" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明文件">
       <created>1552828310632</created>
@@ -414,16 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553867628592</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="完成堆栈计算器-多位">
+      <created>1554127207728</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127207728</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36415000" />
+    <option name="totallyTimeSpent" value="37795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24680851" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24680851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +533,8 @@
     <MESSAGE value="完成栈" />
     <MESSAGE value="增加堆栈计算器" />
     <MESSAGE value="完成堆栈计算器" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成堆栈计算器" />
+    <MESSAGE value="完成堆栈计算器-多位" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成堆栈计算器-多位" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,6 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
