@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6866fb05-db7f-4ec2-bc1a-a3f466d73062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="435">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="58">
+              <caret line="16" selection-start-line="16" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#29#62#0" expanded="true" />
               </folding>
@@ -48,20 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" selection-start-line="48" selection-end-line="96" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter4/SingleLinkListUnit1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="390">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -101,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala" />
       </list>
     </option>
   </component>
@@ -114,7 +106,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="327" />
+    <option name="y" value="139" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -123,7 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +171,17 @@
             <path>
               <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="saya" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,13 +218,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554732776489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554818510038" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -246,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
+  <component name="RunManager" selected="Application.InsertSort">
     <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -293,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Josephu" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter4.Josephu" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter7.InsertSort" />
       <module name="ScalaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter4.*" />
+          <option name="PATTERN" value="ac.cn.saya.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Josephu" />
       <item itemvalue="Application.ArrayStackUnit" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.Maze" />
       <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.InsertSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackUnit" />
-        <item itemvalue="Application.Josephu" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +401,8 @@
       <workItem from="1553863958163" duration="3576000" />
       <workItem from="1554123057402" duration="1258000" />
       <workItem from="1554385905726" duration="1481000" />
-      <workItem from="1554731925036" duration="677000" />
+      <workItem from="1554731925036" duration="913000" />
+      <workItem from="1554817505856" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明文件">
       <created>1552828310632</created>
@@ -498,17 +502,23 @@
       <option name="project" value="LOCAL" />
       <updated>1554387380618</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="完成选择排序">
+      <created>1554732814519</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554732814519</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38642000" />
+    <option name="totallyTimeSpent" value="39691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="327" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="313" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,7 +566,8 @@
     <MESSAGE value="完成堆栈计算器" />
     <MESSAGE value="完成堆栈计算器-多位" />
     <MESSAGE value="完成递归求解迷宫" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成递归求解迷宫" />
+    <MESSAGE value="完成选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成选择排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,6 +661,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -664,20 +682,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="58">
+          <caret line="16" selection-start-line="16" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="e#29#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
