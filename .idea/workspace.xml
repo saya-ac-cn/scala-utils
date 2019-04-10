@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6866fb05-db7f-4ec2-bc1a-a3f466d73062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -39,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
+            <state relative-caret-position="225">
               <caret line="16" selection-start-line="16" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#29#62#0" expanded="true" />
@@ -48,11 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="280">
+              <caret line="28" column="45" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="e#29#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <folding>
+                <element signature="e#29#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala" />
       </list>
     </option>
   </component>
@@ -105,8 +121,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="139" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="35" />
+    <option name="y" value="33" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -115,7 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,13 +235,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554818510038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554904222551" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -249,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -266,19 +283,6 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayStackUnit" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter5.ArrayStackUnit" />
-      <module name="ScalaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -315,6 +319,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ac.cn.saya.chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter7.QuickSort" />
+      <module name="ScalaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.cn.saya.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +377,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayStackUnit" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.Maze" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.ArrayStackUnit" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +419,8 @@
       <workItem from="1554123057402" duration="1258000" />
       <workItem from="1554385905726" duration="1481000" />
       <workItem from="1554731925036" duration="913000" />
-      <workItem from="1554817505856" duration="813000" />
+      <workItem from="1554817505856" duration="1057000" />
+      <workItem from="1554901607305" duration="2554000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明文件">
       <created>1552828310632</created>
@@ -509,16 +527,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554732814519</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="完成插入排序">
+      <created>1554818545943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554818545944</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39691000" />
+    <option name="totallyTimeSpent" value="42489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="313" width="1440" height="797" extended-state="0" />
+    <frame x="35" y="33" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31473532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +554,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24680851" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -567,7 +593,8 @@
     <MESSAGE value="完成堆栈计算器-多位" />
     <MESSAGE value="完成递归求解迷宫" />
     <MESSAGE value="完成选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成选择排序" />
+    <MESSAGE value="完成插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成插入排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,6 +610,12 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -654,20 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/ArrayStackUnit.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -682,9 +701,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter6/Maze.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/SelectSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
+        <state relative-caret-position="225">
           <caret line="16" selection-start-line="16" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="e#29#62#0" expanded="true" />
@@ -692,10 +718,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter5/Calculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="280">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#29#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#29#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
