@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6866fb05-db7f-4ec2-bc1a-a3f466d73062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/MergeSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter8/BinarySearch.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="240">
               <caret line="19" selection-start-line="19" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="e#29#62#0" expanded="true" />
@@ -72,14 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/MergeSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding>
                 <element signature="e#29#62#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter8/BinarySearch.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -122,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/InsertSort.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/MergeSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter8/BInarySearch.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter8/BinarySearch.scala" />
       </list>
     </option>
   </component>
@@ -135,7 +146,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="369" />
+    <option name="y" value="364" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -144,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,7 +217,7 @@
               <item name="ac" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="saya" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScalaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -248,12 +258,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989166923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555073115402" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -278,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -299,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter7.InsertSort" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter8.BinarySearch" />
       <module name="ScalaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter7.*" />
+          <option name="PATTERN" value="ac.cn.saya.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter6.Maze" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ac.cn.saya.chapter7.InsertSort" />
       <module name="ScalaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.cn.saya.chapter6.*" />
+          <option name="PATTERN" value="ac.cn.saya.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Maze" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.Maze" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +444,8 @@
       <workItem from="1554731925036" duration="913000" />
       <workItem from="1554817505856" duration="1057000" />
       <workItem from="1554901607305" duration="2639000" />
-      <workItem from="1554986999932" duration="2108000" />
+      <workItem from="1554986999932" duration="2803000" />
+      <workItem from="1555072299504" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="修改说明文件">
       <created>1552828310632</created>
@@ -554,17 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1554904256254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="完成归并排序">
+      <created>1554989203308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554989203309</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44682000" />
+    <option name="totallyTimeSpent" value="46775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3190272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32331902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -573,7 +591,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47659576" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25106382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,7 +633,8 @@
     <MESSAGE value="完成选择排序" />
     <MESSAGE value="完成插入排序" />
     <MESSAGE value="完成快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成快速排序" />
+    <MESSAGE value="完成归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成归并排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/QuickSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="240">
           <caret line="19" selection-start-line="19" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="e#29#62#0" expanded="true" />
@@ -768,11 +787,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter7/MergeSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding>
             <element signature="e#29#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ac/cn/saya/chapter8/BinarySearch.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
