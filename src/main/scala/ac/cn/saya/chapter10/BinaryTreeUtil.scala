@@ -150,6 +150,29 @@ class HeroNode(number:Int,name:String){
     return temp
   }
 
+  /**
+    * 删除节点
+    * 如果是叶子节点，直接删除
+    * 如果是非叶子节点，删除子树
+    * @param no
+    */
+  def delNode(no:Int):Unit={
+    if(this.left != null && this.left.no == no){
+      this.left = null
+      return
+    }
+    if(this.right != null && this.right.no == no){
+      this.right = null
+      return
+    }
+    if(this.left != null){
+      this.left.delNode(no)
+    }
+    if(this.right != null){
+      this.right.delNode(no)
+    }
+  }
+
 }
 
 //
@@ -185,6 +208,16 @@ class BinaryTree{
       return null
     }else{
       return root.preOrderSearch(no)
+    }
+  }
+
+  def delNode(no:Int):Unit={
+    if(root != null){
+      if(root.no == no){
+        root = null
+      }else{
+        root.delNode(no)
+      }
     }
   }
 
