@@ -23,7 +23,7 @@ object BinarySortTreeUtil {
 
 }
 
-class BinarySortTreeNode(val value:Int){
+class BinarySortTreeNode(var value:Int){
   var left:BinarySortTreeNode = null
   var right:BinarySortTreeNode = null
 
@@ -120,6 +120,18 @@ class BinarySortTree{
     }
   }
 
+  def delRightTreeMin(node:BinarySortTreeNode):Int={
+    var target = node
+    // 循环查找有右子树最小的值
+    while(target.left != null){
+      target = target.left
+    }
+    val minValue = target.value
+    // 删除最小值的对应节点信息
+    delNode(minValue)
+    return minValue
+  }
+
   def delNode(value:Int):Unit={
     if(root == null){
       return
@@ -131,6 +143,10 @@ class BinarySortTree{
     }
     // 查找父节点
     var parentNode = searchParent(value)
+    if (parentNode == null){
+      root = null
+      return
+    }
     // 判断是否是叶子节点
     if(targetNode.left == null && targetNode.right == null){
       // 判断是左节点还是右子节点
@@ -138,6 +154,26 @@ class BinarySortTree{
         parentNode.left = null
       }else{
         parentNode.right = null
+      }
+    }else if(parentNode.left != null && parentNode.right != null){
+      // 有两个叶子节点
+      val value = delRightTreeMin(targetNode.right)
+      targetNode.value = value
+    }else{
+      // 有一个叶子节点
+      // 判断targetNode是parentNode的左还是右
+      if (targetNode.left != null){
+        if(parentNode.left.value == value){
+          parentNode.left = targetNode.left
+        }else{
+          parentNode.right = targetNode.left
+        }
+      }else{
+        if(parentNode.left.value == value){
+          parentNode.left = targetNode.right
+        }else{
+          parentNode.right = targetNode.right
+        }
       }
     }
   }
